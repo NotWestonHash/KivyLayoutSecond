@@ -1,10 +1,58 @@
-MAINWIDGET
+AssignmentLayout
+<AssignmentLayout>:
+    orientation: "vertical"
+    Label:
+        text: "KivyLayout"
+    BoxLayout:
+        orientation: "horizontal"
+        Button:
+            text: "REPLACE ME PLEASE"
+        Button:
+            text: "REPLACE ME PLEASE"
+        Button:
+            text: "REPLACE ME PLEASE"
 
-<MAINWIDGET>
-    BUTTON:
-        TEXT: "BUTTON A"
-        POS: "100DP","100DP"
-        SIZE: "100DP","100DP"
 
-    LABEL:
-        TEXT: "LABEL A"
+
+
+
+
+
+StackLayoutExample
+
+<StackLayoutExample>:
+    orientation: "rl-bt"
+    Button:
+        text: "BUTTON 1"
+        size_hint: .5,.5
+
+GridLayoutExample
+
+<GridLayoutExample>:
+    rows: 3
+    columns: 3
+
+BoxLayoutExample
+<BoxLayoutExample>:
+    orientation: "vertical"
+    spacing: "5dp"
+    Button:
+        text: "BUTTON 1"
+        size_hint: .5,.5
+        #horizontal positions: "x"(left),"center_x", "right"
+        #vertical positions: "y"(),"center_y",""
+    Button:
+        text: "BUTTON 2"
+    BoxLayout:
+
+
+MainWidget
+
+<MainWidget>:
+    Button:
+        text: "BUTTON A"
+        pos: "100dp","100dp"
+        size: "100dp","100dp"
+
+    Label:
+        text: "LABEL A"
