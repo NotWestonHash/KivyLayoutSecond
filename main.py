@@ -8,22 +8,6 @@ class AssignmentLayout(BoxLayout):
     pass
 
 
-class MainWidget(Widget):
-    pass
-
-
-class BoxLayoutExample(BoxLayout):
-    pass
-
-
-class GridLayoutExample(GridLayout):
-    pass
-
-
-class StackLayoutExample(StackLayout):
-    pass
-
-
 class KivyLayoutApp(App):
     pass
 
